@@ -1,0 +1,19 @@
+
+li {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    color: red;
+}
+
+/* .link-ativo {
+    text-decoration: none;
+    color: green;
+} */
+
+.link.focus,
+.link:focus {
+    color: blueviolet;
+}
